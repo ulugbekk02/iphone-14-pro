@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 14 pro</title>
+    <link rel="stylesheet" href="./stayles/stayle.css">
+    <link rel="stylesheet" href="./stayles/fonts.css">
+    <link rel="stylesheet" href="./stayles/normalize.css">
+</head>
+<body>
+    <div class="box">
+        <div class="inner">
+            <div class="island_popun">
+                <div class="content">
+                    <div class="details">
+                        <div class="imgBx">
+                            <img src="./images/Baxrom.jpg" alt="Photo">
+                        </div>
+                        <p>Baxrom Akam Calling</p>
+                    </div>
+                    <div class="action">
+                        <ion-icon name="call" class="red"></ion-icon>
+                        <ion-icon name="call" class="green"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="btn btn1"></i>
+        <i class="btn btn2"></i>
+        <i class="btn btn3"></i>
+        <i class="rightSidebtn"></i>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let popun = document.querySelector('.island_popun');
+        popun.onclick = function(){
+            popun.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
